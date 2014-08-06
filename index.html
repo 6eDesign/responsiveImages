@@ -1,0 +1,41 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive Backgrounds</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- be sure to separate source from min-width integer by a 
+	     single space, and separate each size/breakpoint by a 
+	     comma - order is unimportant. 
+  -->
+	<div class="responsive-bg container container-outer enforce-height"
+	 data-imagesizes="images/something-1800.jpg 1800, images/something-768.jpg 768, images/something-992.jpg 992, images/something-1200.jpg 1200"
+	>
+		<div class="container container-inner enforce-height">
+			
+		</div>
+	</div>
+	<div class="responsive-bg container container-outer enforce-height"
+	 data-imagesizes="images/something-1800.jpg 1800, images/something-768.jpg 768, images/something-992.jpg 992, images/something-1200.jpg 1200"
+	>
+		<div class="container container-inner enforce-height">
+			
+		</div>
+	</div>
+</body>
+<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js'></script>
+<script type='text/javascript' src='http://code.jquery.com/jquery-1.11.1.min.js'></script>
+<script type='text/javascript' src='responsiveImages.js'></script>
+</html>
+
+
+<!-- 	
+	Decent Breakpoints: 
+		480,
+		500,
+		768,
+		992,
+		1200,
+		1800
+-->

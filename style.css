@@ -1,0 +1,30 @@
+*, *:before, *:after {
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+body { 
+	background-color: white; 
+}
+
+.container { 
+	display: block; 
+	margin: auto; 
+}
+
+.container-outer { 
+	width: 100%; 
+	border: 1px solid black; 
+	background-position: center center; 
+	background-repeat: no-repeat; 
+}
+
+.container-inner { 
+	width: 768px; 
+/*	max-width: 100%; */
+	margin: 0 auto; 
+	background-color: rgba(194, 191, 191, 0.12);
+}
+
+.enforce-height { 
+	min-height: 450px; 
+}
